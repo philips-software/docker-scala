@@ -25,7 +25,7 @@ docker run -it --rm philipssoftware/scala:2.12 scala -version
 
 ## Why?
 
-> Why do we have our own docker image definition?
+> Why do we have our own docker image definitions?
 
 We often need some tools in a container for checking some things. F.e. [jq](https://stedolan.github.io/jq/) and [curl](https://curl.haxx.se/).
 We can install this every time we need a container, but having this baked into a container seems a better approach.

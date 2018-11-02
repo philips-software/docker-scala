@@ -6,5 +6,5 @@ services:
 jobs:
   include:
     - stage: build
-      - script: ./bin/docker_build.sh 2.12/alpine
+      - script: ./bin/docker_build.sh 2.12/alpine scala scala:2.12 scala:2.12-alpine scala:2.12-1.2.3 scala:2.12-1.2.3-alpine
 
