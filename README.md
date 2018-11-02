@@ -21,7 +21,7 @@ docker run -it --rm philipssoftware/scala:2.12 scala -version
 ## Simple Tags
 
 ### scala
-- `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [scala/2.12/alpine/Dockerfile](scala/2.12/alpine/Dockerfile)
+- `scala:latest`, `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [scala/2.12/alpine/Dockerfile](scala/2.12/alpine/Dockerfile)
 
 ## Why?
 
