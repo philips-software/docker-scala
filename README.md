@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/philips-software/docker-images.svg?token=rJGEzBK71KGFbNJFk2Ws&branch=master)](https://travis-ci.com/philips-software/scala)
+[![Build Status](https://travis-ci.com/philips-software/scala.svg?branch=master)](https://travis-ci.com/philips-software/scala)
 [![Slack](https://philips-software-slackin.now.sh/badge.svg)](https://philips-software-slackin.now.sh)
 
 # Scala Docker images
@@ -14,6 +14,7 @@ Current versions available:
 ```
 ## Usage
 
+Images can be found on [https://hub.docker.com/r/philipssoftware/scala/](https://hub.docker.com/r/philipssoftware/scala/).
 ```
 docker run -it --rm philipssoftware/scala:2.12 scala -version
 ```
@@ -21,7 +22,7 @@ docker run -it --rm philipssoftware/scala:2.12 scala -version
 ## Simple Tags
 
 ### scala
-- `scala:latest`, `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [scala/2.12/alpine/Dockerfile](scala/2.12/alpine/Dockerfile)
+- `scala`, `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [2.12/alpine/Dockerfile](2.12/alpine/Dockerfile)
 
 ## Why?
 
@@ -36,7 +37,7 @@ That's why we want our own docker file definitions.
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/docker-images/issues)
+- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/scala/issues)
 
 ## Author
 
