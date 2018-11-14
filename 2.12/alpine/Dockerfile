@@ -30,4 +30,6 @@ RUN mkdir /app
 
 WORKDIR /app
 
+ADD REPO .
+
 CMD ["/bin/sh"]
