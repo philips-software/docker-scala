@@ -31,5 +31,6 @@ RUN mkdir /app
 WORKDIR /app
 
 ADD REPO .
+ADD TAGS .
 
 CMD ["/bin/sh"]

@@ -18,11 +18,37 @@ Images can be found on [https://hub.docker.com/r/philipssoftware/scala/](https:/
 ```
 docker run -it --rm philipssoftware/scala:2.12 scala -version
 ```
+## Content
+
+The images obviously contain scala, but also two other files:
+- `REPO`
+- `TAGS`
+
+### REPO
+
+This file has a url to the REPO with specific commit-sha of the build.
+Example:
+
+```
+$ docker run philipssoftware/scala:2 cat REPO
+https://github.com/philips-software/scala/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
+```
+
+### TAGS
+
+This contains all the similar tags at the point of creation.
+
+```
+$ docker run philipssoftware/scala:2 cat TAGS
+scala scala:2 scala:2.12 scala:2.12-alpine scala:2.12-1.2.3 scala:2.12-1.2.3 
+```
+
+You can use this to pin down a version of the container from an existing development build for production. When using `scala:2` for development. This ensures that you've got all security updates in your build. If you want to pin the version of your image down for production, you can use this file inside of the container to look for the most specific tag, the last one.
 
 ## Simple Tags
 
 ### scala
-- `scala`, `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [2.12/alpine/Dockerfile](2.12/alpine/Dockerfile)
+- `scala`, `scala:2`, `scala:2.12`, `scala:2.12-alpine`, `scala:2.12-1.2.3`, `scala:2.12-1.2.3-alpine` [2.12/alpine/Dockerfile](2.12/alpine/Dockerfile)
 
 ## Why?
 
