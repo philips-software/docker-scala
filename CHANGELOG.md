@@ -7,7 +7,8 @@ and this project uses the version of main tool as main version number .
 ## [Unreleased]
 
 ### Added
-- Update scala (2.13.8) and sbt (1.2.8)
+- Update scala (2.13.0)
+- Update scala (2.12.8) and sbt (1.2.8)
 - [#4] - Adds TAGS
 - [#2] - Use common docker ci scripts version 1.0.1: https://github.com/philips-software/docker-ci-scripts
 - Add Scala

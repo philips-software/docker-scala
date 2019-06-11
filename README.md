@@ -40,7 +40,7 @@ This contains all the similar tags at the point of creation.
 
 ```
 $ docker run philipssoftware/scala:2 cat TAGS
-scala scala:2 scala:2.12 scala:2.12.8 scala:2.12.8-alpine scala:2.12-1.2.8 scala:2.12.8-1.2.8-alpine
+scala scala:2 scala:2.13 scala:2.13.0 scala:2.13.0-alpine scala:2.13-1.2.8 scala:2.13.0-1.2.8-alpine
 ```
 
 You can use this to pin down a version of the container from an existing development build for production. When using `scala:2` for development. This ensures that you've got all security updates in your build. If you want to pin the version of your image down for production, you can use this file inside of the container to look for the most specific tag, the last one.
@@ -48,7 +48,7 @@ You can use this to pin down a version of the container from an existing develop
 ## Simple Tags
 
 ### scala
-- `scala`, `scala:2`, `scala:2.12`, `scala:2.12.8`, `scala:2.12.8-alpine`, `scala:2.12-1.2.8`, `scala:2.12.8-1.2.8-alpine` [2/alpine/Dockerfile](2.12/alpine/Dockerfile)
+- `scala`, `scala:2`, `scala:2.13`, `scala:2.13.0`, `scala:2.13.0-alpine`, `scala:2.13-1.2.8`, `scala:2.13.0-1.2.8-alpine` [2/alpine/Dockerfile](2/alpine/Dockerfile)
 
 ## Why?
 
