@@ -8,7 +8,7 @@ This repo will contain scala docker images
 Current versions available:
 ```
 .
-├── 2.12
+├── 2
 │   └── alpine
 │       └── Dockerfile
 ```
@@ -16,7 +16,8 @@ Current versions available:
 
 Images can be found on [https://hub.docker.com/r/philipssoftware/scala/](https://hub.docker.com/r/philipssoftware/scala/).
 ```
-docker run -it --rm philipssoftware/scala:2.12 scala -version
+$ docker run -it --rm philipssoftware/scala:2 scala -version
+Scala code runner version 2.13.0 -- Copyright 2002-2019, LAMP/EPFL and Lightbend, Inc.
 ```
 ## Content
 
