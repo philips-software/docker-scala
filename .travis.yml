@@ -9,5 +9,5 @@ sudo: true
 jobs:
   include:
     - stage: build
-      script: ./ci/bin/docker_build_and_push.sh 2/alpine scala scala:2 scala:2.12 scala:2.12.7 scala:2.12.7-alpine scala:2.12-1.2.3 scala:2.12.7-1.2.3-alpine
+      script: ./ci/bin/docker_build_and_push.sh 2/alpine scala scala:2 scala:2.12 scala:2.12.8 scala:2.12.8-alpine scala:2.12-1.2.8 scala:2.12.8-1.2.8-alpine
 
