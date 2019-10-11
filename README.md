@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/philips-software/scala.svg?branch=master)](https://travis-ci.com/philips-software/scala)
+[![Build Status](https://github.com/philips-software/docker-scala/workflows/build/badge.svg)](https://github.com/philips-software/docker-scala/actions/)
 [![Slack](https://philips-software-slackin.now.sh/badge.svg)](https://philips-software-slackin.now.sh)
 
 # Scala Docker images
@@ -32,7 +32,7 @@ Example:
 
 ```
 $ docker run philipssoftware/scala:2 cat REPO
-https://github.com/philips-software/scala/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
+https://github.com/philips-software/docker-scala/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
 ```
 
 ### TAGS
@@ -64,7 +64,7 @@ That's why we want our own docker file definitions.
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/scala/issues)
+- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/docker-scala/issues)
 
 ## Author
 
