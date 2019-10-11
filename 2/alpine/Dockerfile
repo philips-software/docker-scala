@@ -4,8 +4,8 @@ MAINTAINER Forest Keepers <Jeroen.knoops@philips.com>
 ARG SCALA_VERSION
 ARG SBT_VERSION
 
-ENV SCALA_VERSION ${SCALA_VERSION:-2.13.0}
-ENV SBT_VERSION ${SBT_VERSION:-1.2.8}
+ENV SCALA_VERSION ${SCALA_VERSION:-2.13.1}
+ENV SBT_VERSION ${SBT_VERSION:-1.3.2}
 
 RUN \
   mkdir -p /usr/lib/jvm/java-1.8-openjdk/jre && \
