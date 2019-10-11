@@ -7,6 +7,7 @@ and this project uses the version of main tool as main version number .
 ## [Unreleased]
 
 ### Added
+- [#12] - Update scala (2.13.1) and SBT (1.3.2) 
 - [#11] - Add prefix 
 - [#10] - Use github actions
 - Update scala (2.13.0)
@@ -16,6 +17,7 @@ and this project uses the version of main tool as main version number .
 - Add Scala
 - Add REPO in dockerfile with reference to github commit
 
+[#12]: https://github.com/philips-software/docker-scala/issues/12
 [#11]: https://github.com/philips-software/docker-scala/issues/11
 [#10]: https://github.com/philips-software/docker-scala/issues/10
 [#4]: https://github.com/philips-software/docker-scala/issues/4
