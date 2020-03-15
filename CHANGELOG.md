@@ -6,6 +6,8 @@ and this project uses the version of main tool as main version number .
 
 ## [Unreleased]
 
+### Changed
+- No more git submodule. Now using docker-ci-script - github action
 ### Added
 - [#12] - Update scala (2.13.1) and SBT (1.3.2) 
 - [#11] - Add prefix 
